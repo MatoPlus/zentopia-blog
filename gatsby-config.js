@@ -1,9 +1,9 @@
 module.exports = {
   pathPrefix: "/zentopia-blog",
   siteMetadata: {
-    title: `Lewis Gatsby Starter Blog`,
-    description: `A custom Gatsby starter template to start a blog or personal website.`,
-    siteUrl: `https://lewis-gatsby-starter-blog.netlify.com`,
+    title: `Zentopia Design Blog`,
+    description: `A blog website to documents to efforts of designing the Zentopia App for CS449.`,
+    siteUrl: `https://matoplus.github.io/zentopia-blog`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

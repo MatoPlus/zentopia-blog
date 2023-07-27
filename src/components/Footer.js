@@ -19,18 +19,18 @@ export function Footer() {
   return (
     <Container>
       <ButtonLink
-        href="https://mobile.twitter.com/lewislbr"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Twitter
-      </ButtonLink>
-      <ButtonLink
-        href="https://github.com/lewislbr/lewis-gatsby-starter-blog"
+        href="https://github.com/matoplus/zentopia-blog"
         target="_blank"
         rel="noopener noreferrer"
       >
         Github
+      </ButtonLink>
+      <ButtonLink
+        href="https://www.figma.com/file/n6CAMeTza5nBAJ0r38rQf0/Productivity-App-Prototypes?type=design&node-id=0%3A1&mode=design&t=knR9VfvAQ2VNnlyn-1"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Figma
       </ButtonLink>
     </Container>
   )

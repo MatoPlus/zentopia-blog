@@ -15,7 +15,7 @@
     "serve": "gatsby serve",
     "lint": "eslint --ext .js,.jsx .",
     "format": "prettier --write --check \"!.cache\" \"!public\" .",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
+    "deploy": "PREFIX_PATHS=true gatsby build --prefix-paths && gh-pages -d public"
   },
   "dependencies": {
     "babel-plugin-styled-components": "^1.12.0",

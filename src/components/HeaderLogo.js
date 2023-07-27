@@ -20,7 +20,7 @@ const Logo = styled.p`
 export function HeaderLogo() {
   return (
     <HeaderWrapper>
-      <Logo>LGSB</Logo>
+      <Logo>Team Jarify</Logo>
       <Link to="/about">
         <p>About</p>
       </Link>

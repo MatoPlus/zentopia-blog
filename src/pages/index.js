@@ -51,10 +51,9 @@ export default function Home({data}) {
       <HeaderLogo />
       <Layout>
         <Hero>
-          <HeadingXL>Lewis Gatsby Starter Blog</HeadingXL>
+          <HeadingXL>Zentopia</HeadingXL>
           <TextHome>
-            This is a custom Gatsby starter template to start a new blog or
-            personal website.
+            The Balance You’re Looking for
           </TextHome>
         </Hero>
         {data.allMarkdownRemark.edges.map(({node}) => (
@@ -73,7 +72,7 @@ export default function Home({data}) {
 
 export const data = graphql`
   query {
-    allMarkdownRemark(sort: {fields: [frontmatter___date], order: DESC}) {
+    allMarkdownRemark(sort: {fields: [frontmatter___date], order: ASC}) {
       edges {
         node {
           id

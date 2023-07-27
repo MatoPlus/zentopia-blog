@@ -1,6 +1,6 @@
 ---
-title: "Designing Process"
-date: "2023-07-30"
+title: "Finalizing The Prototype"
+date: "2023-07-31"
 ---
 
 ![photo](post3photo1.jpg)
