@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://lewis-gatsby-starter-blog.netlify.com/zentopia-blog/sitemap-index.xml
-Host: https://lewis-gatsby-starter-blog.netlify.com
+Sitemap: https://matoplus.github.io/zentopia-blog/sitemap-index.xml
+Host: https://matoplus.github.io
