@@ -47,7 +47,7 @@ const Post = styled.div`
 export default function Home({data}) {
   return (
     <>
-      <SEO title="Blog" />
+      <SEO title="Zentopia Blog" />
       <HeaderLogo />
       <Layout>
         <Hero>
