@@ -27,20 +27,28 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-d0ea76389fb8a6a15431.js"
+    "url": "webpack-runtime-f7732585d654482a8809.js"
   },
   {
     "url": "framework-231cfd6da847e9d872b6.js"
   },
   {
-    "url": "app-28d13f5b35e45896b58d.js"
+    "url": "app-200d8ca7bc6b9da9077b.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "eaf220be808f04ecd27ff253d105fbe5"
+    "revision": "d8662f09af05bcb8b3212553b8f5a596"
   },
   {
     "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-49be599b1ad8fa2a8465.js"
+  },
+  {
+    "url": "page-data/offline-plugin-app-shell-fallback/page-data.json",
+    "revision": "f6081b83111aea4128c98944b7fafccc"
+  },
+  {
+    "url": "page-data/app-data.json",
+    "revision": "470e89c9e903d2e74f7176cb192404fe"
   },
   {
     "url": "polyfill-95a809e6b66e585e8557.js"
@@ -130,12 +138,12 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   lastNavigationRequest = event.request.url
 
   let { pathname } = new URL(event.request.url)
-  pathname = pathname.replace(new RegExp(`^`), ``)
+  pathname = pathname.replace(new RegExp(`^/zentopia-blog`), ``)
 
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/app-28d13f5b35e45896b58d.js`))) {
+  if (!resources || !(await caches.match(`/zentopia-blog/app-200d8ca7bc6b9da9077b.js`))) {
     return await fetch(event.request)
   }
 
@@ -148,7 +156,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
     }
   }
 
-  const offlineShell = `/offline-plugin-app-shell-fallback/index.html`
+  const offlineShell = `/zentopia-blog/offline-plugin-app-shell-fallback/index.html`
   const offlineShellWithKey = workbox.precaching.getCacheKeyForURL(offlineShell)
   return await caches.match(offlineShellWithKey)
 })
