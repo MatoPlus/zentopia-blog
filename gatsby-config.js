@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/zentopia-blog",
   siteMetadata: {
     title: `Lewis Gatsby Starter Blog`,
     description: `A custom Gatsby starter template to start a blog or personal website.`,
