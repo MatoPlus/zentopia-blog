@@ -3,9 +3,11 @@ title: "The Problem"
 date: "2023-07-28"
 ---
 
-![photo](Idea_concept.jpg)
+## ![idea](Idea_concept.jpg)
 
-## Our Goal: Cultivating Work-Life Balance with an Effective Productivity App
+---
+
+## Our Goal
 
 Welcome to our blog, where we to design a productivity app that addresses one of the most prevalent challenges of our time: maintaining a healthy work-life balance. In the bustling world of the digital age, where global-first companies have become the norm, the boundaries between work and personal life often blur, leading to overwork and neglect of our well-being. As a team of dedicated students, we have personally experienced the impact of this issue during our co-op terms as employees and our study terms as students.
 
@@ -15,7 +17,7 @@ The primary aim of our project was clear: to design an application that empowers
 
 Throughout this blog, we will walk you through our design process step-by-step, sharing our ideas, challenges, and breakthroughs. We hope to create an insightful and engaging narrative that not only documents our journey but also provides valuable insights into the world of app development, user experience design, and the ever-critical aspect of work-life balance.
 
-## Our Value Proposition: Enhancing Productivity with Simplicity and Fun
+## Our Value Proposition
 
 ### What are we?
 
