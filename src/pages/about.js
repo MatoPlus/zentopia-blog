@@ -1,22 +1,19 @@
 import React from "react"
-import {graphql} from "gatsby"
 import {
   HeaderBack,
   HeadingXL,
-  Image,
   Layout,
   SEO,
   TextBody,
 } from "../components"
 
-export default function About({data}) {
+export default function About() {
   return (
     <>
       <SEO title="About" />
       <HeaderBack />
       <Layout>
         <HeadingXL>About</HeadingXL>
-        <Image fluid={data.RandomPhoto.childImageSharp.fluid} />
         <TextBody>
           This website is an interactive blog post that documents our entire design process to build Zentopia.
           <br />
@@ -29,15 +26,3 @@ export default function About({data}) {
     </>
   )
 }
-
-export const data = graphql`
-  query {
-    RandomPhoto: file(relativePath: {eq: "assets/images/RandomPhoto.jpg"}) {
-      childImageSharp {
-        fluid(maxWidth: 1400) {
-          ...GatsbyImageSharpFluid_withWebp
-        }
-      }
-    }
-  }
-`

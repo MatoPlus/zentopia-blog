@@ -12,6 +12,7 @@
   "scripts": {
     "start": "gatsby develop",
     "build": "rm -rf .cache && rm -rf public && gatsby build",
+    "clean": "gatsby clean",
     "serve": "gatsby serve",
     "lint": "eslint --ext .js,.jsx .",
     "format": "prettier --write --check \"!.cache\" \"!public\" .",
