@@ -5,18 +5,17 @@ date: "2023-07-28"
 
 ![photo](Idea_concept.jpg)
 
-## Our goal
+## Our Goal: Cultivating Work-Life Balance with an Effective Productivity App
 
-As part of CS449, we had to picked a project theme as a prompt to design an application to real-world problems.
+Welcome to our blog, where we to design a productivity app that addresses one of the most prevalent challenges of our time: maintaining a healthy work-life balance. In the bustling world of the digital age, where global-first companies have become the norm, the boundaries between work and personal life often blur, leading to overwork and neglect of our well-being. As a team of dedicated students, we have personally experienced the impact of this issue during our co-op terms as employees and our study terms as students.
 
-We choose "maintaining good work-life balance" as a prompt as we felt in this digital age with global-first companies,
-it is very easy to overwork and ignore work-life balance. We experienced this first hand as employees in our co-op terms
-as well as students in our study terms.
+For our CS449 project, we had the opportunity to choose a theme that would inspire us to create an application capable of tackling real-world problems. After thoughtful consideration, we unanimously selected "maintaining good work-life balance" as our driving prompt. We believe that fostering a harmonious relationship between work and personal life is crucial for overall well-being and long-term success, and that's where our app comes into play.
 
-Our goal was to design an application that creates work-life balance by giving users more mental capacity in the form
-of a productivity app that actually works!
+The primary aim of our project was clear: to design an application that empowers users to achieve a balanced lifestyle by enhancing their productivity and mental capacity. While numerous productivity apps exist in the market, we noticed a common pitfall — many of them fall short of delivering tangible results. Our mission, therefore, was to create a productivity app that actually works! A tool that not only helps users manage their tasks efficiently but also promotes the importance of self-care and mindful breaks, ensuring they can thrive in both their professional and personal pursuits.
 
-## Our value proposition
+Throughout this blog, we will walk you through our design process step-by-step, sharing our ideas, challenges, and breakthroughs. We hope to create an insightful and engaging narrative that not only documents our journey but also provides valuable insights into the world of app development, user experience design, and the ever-critical aspect of work-life balance.
+
+## Our Value Proposition: Enhancing Productivity with Simplicity and Fun
 
 ### What are we?
 
