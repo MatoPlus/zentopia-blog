@@ -21,7 +21,7 @@ Throughout this blog, we will walk you through our design process step-by-step, 
 
 ### What are we?
 
-Our original slogan was "Make the most of your time".
+> **The original slogan: "Make the most of your time".**
 
 The high-level problem being solved is to make productivity easier to approach. Many productivity tools such as calendars and Pomodoro techniques require discipline in the first place. Many people who need help with productivity lack the discipline to use existing productivity tools. For example, many students use Pomodoro just to end up going over breaks and delaying work sessions. Our project aims to resolve this tool by using heuristics to automate and enforce certain productivity techniques to help users feel good about the work and effort they are exerting.
 

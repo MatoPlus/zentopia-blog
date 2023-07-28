@@ -59,7 +59,7 @@ The following shows our affinity diagram after all informational interviews:
 
 ---
 
-Most interviews were successful as we gathered new perspectives, user stories we can use in our development, and other various suggestions to help us with our designing process. Here are our interview results:
+Most interviews were successful as we gathered new perspectives, user stories we can use in our development, and other various suggestions to help us with our designing process. Here are our key takeaways from each interview:
 
 ### Interview 1
 
