@@ -158,4 +158,43 @@ Changes:
 
 ## Design Iterations
 
-**TBD**
+The team had many opportunities to have users evaluate prototypes of Zentopia. Our prototype consistently evolved iteration after iteration:
+
+### Iteration 2 (After paper prototype above)
+
+#### Design changes for points of confusion:
+
+- Organic timer: All users treat the skip button in the timer as start/stop, infers that it is a skip button after use as shown
+- Smart calendar: Confirm event button (plus icon) is unintuitive due to similar placements in previous pages as shown
+- Goal-tracking: Habit management button (gear icon) is unintuitive as shown
+- Goal-tracking: Habit tracker button is unintuitive, labels might help as shown
+- Goal-tracking: When the user wanted to go the daily schedule, they occasionally mistakenly chose the calendar icon.
+
+![](iter2-2.png)
+![](iter2-3.png)
+![](iter2-4.png)
+![](iter2-4.png)
+
+### Iteration 3
+
+#### Design changes for points of confusion:
+
+- The navigation bar seemed a little bit ‘older’ and a little less contemporary, maybe try to remove the white divider bar and see
+- The goal tracking app home screen seems to not highlight the next activities etc as much as it should, it feels like that is the actual important part of the feature
+- Colours on the Smart Calendar flow feel very muted compared to the rest of the app. Try using white text rather than grey to make the text easier to read and give it more contrast.
+- There are some inconsistencies between flows for the Title Bars. The titles in the Calendar flow are grey, larger and not underlined whereas in the Goal Tracker flow, the titles are white, smaller and have less padding on top
+- Remove whitelist/blacklist as it does not seem to important to the overall flow of the application
+- Try putting the search bar under MY NETWORKS at the top, so that users are more likely to search through their contacts than scroll
+- Could create more vertical space in the Add Event page to make it less cramped. Organizing content into columns of one or two in a form makes it easier for the user to navigate as suggested in Figure 1
+
+![](iter3-1.png)
+![](iter3-2.png)
+![](iter3-3.png)
+![](iter3-4.png)
+![](iter3-5.png)
+
+### Iteration 4
+
+- We noticed that our collaboration feature was rather vague so we reiterated the design to make it more complete
+
+![](iter4.png)
