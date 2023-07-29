@@ -620,4 +620,406 @@ be able to easily use the application and start building good habits intuitively
 <li>Added added a settings icon to habit tracking for customizability</li>
 </ul>
 <h2>Design Iterations</h2>
-<p><strong>TBD</strong></p></div></main><footer class="Footer__Container-sc-1gxjlnv-0 jENMCK"><a href="https://github.com/matoplus/zentopia-blog" target="_blank" rel="noopener noreferrer" class="ButtonLink-sc-1q7lk9d-0 eCJhet">Github</a><a href="https://www.figma.com/file/n6CAMeTza5nBAJ0r38rQf0/Productivity-App-Prototypes?type=design&amp;node-id=0%3A1&amp;mode=design&amp;t=knR9VfvAQ2VNnlyn-1" target="_blank" rel="noopener noreferrer" class="ButtonLink-sc-1q7lk9d-0 eCJhet">Figma</a></footer></div></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/blog/post3/";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"polyfill":["/polyfill-95a809e6b66e585e8557.js"],"app":["/app-200d8ca7bc6b9da9077b.js"],"component---cache-caches-gatsby-plugin-offline-app-shell-js":["/component---cache-caches-gatsby-plugin-offline-app-shell-js-49be599b1ad8fa2a8465.js"],"component---src-pages-404-js":["/component---src-pages-404-js-18e6f471e435a283b626.js"],"component---src-pages-about-js":["/component---src-pages-about-js-b83251a9cec48d633323.js"],"component---src-pages-index-js":["/component---src-pages-index-js-4784e5ee06020223dc01.js"],"component---src-templates-blog-post-js":["/component---src-templates-blog-post-js-81e27c56dcf04ec4606b.js"]};/*]]>*/</script><script src="/zentopia-blog/polyfill-95a809e6b66e585e8557.js" nomodule=""></script><script src="/zentopia-blog/component---src-templates-blog-post-js-81e27c56dcf04ec4606b.js" async=""></script><script src="/zentopia-blog/133dca110fad53aa1997b630637bbac3134a2d14-2a251b3e77fa740e5a7d.js" async=""></script><script src="/zentopia-blog/app-200d8ca7bc6b9da9077b.js" async=""></script><script src="/zentopia-blog/framework-231cfd6da847e9d872b6.js" async=""></script><script src="/zentopia-blog/webpack-runtime-61a3dc5f29d2b85e4c2f.js" async=""></script></body></html>
+<p>The team had many opportunities to have users evaluate prototypes of Zentopia. Our prototype consistently evolved iteration after iteration:</p>
+<h3>Iteration 2 (After paper prototype above)</h3>
+<h4>Design changes for points of confusion:</h4>
+<ul>
+<li>Organic timer: All users treat the skip button in the timer as start/stop, infers that it is a skip button after use as shown</li>
+<li>Smart calendar: Confirm event button (plus icon) is unintuitive due to similar placements in previous pages as shown</li>
+<li>Goal-tracking: Habit management button (gear icon) is unintuitive as shown</li>
+<li>Goal-tracking: Habit tracker button is unintuitive, labels might help as shown</li>
+<li>Goal-tracking: When the user wanted to go the daily schedule, they occasionally mistakenly chose the calendar icon.</li>
+</ul>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 900px; "
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 70.22222222222221%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAIAAACgpqunAAAACXBIWXMAAAsTAAALEwEAmpwYAAACx0lEQVQoz21TS1PaYBT9EiAvIA/yIAkJj7x5RUFIAK3FUdvRTqvVSsUKnYqiMyobO3bjdOvShbv6K1z5D1zoxp/Uz646jmdxF2fOvd98954DHh8fj46Ojo+PJ5PJycnJaDS6u7u7ufkzGu1NJqcQ4/H44uLi6enp/PwcKiEJZZC8uroCvV4PAICiKKwIgsBq2zZN0+A/YBgWhmEkEgEvsNX7mlKzUVqIJHkkzqXztu16WsFklBxCsZAhedXwKrVaLWsXMVaCMkCxUt5hhTRY+7zJZAw37LrBfGl2UbIqqp5lBFmt1EsLy1ZrLjfTSkqZqu+LOccJ3hq1TnX+Xc4PI0QcfFxbB3gypVu63/A6XZxXYHOcE7GUmspZatiW3SrBirV6PUaLrGZKbrU0vygUXIBiYGOrB6LxCCPhYlYoBQir5A2LFmWQEFBaJO0iVfIJVgrCMMoIgOJQRmLMKUq1QBQHX7Z6KK+n3Fpcd3ivkTT8gmkyokyVp5lyjdRMrjVLyXrQbCYzpvHmgzI1a8ytasEyiBHPCwNxQa69oTRbrLRjUs6wbDolkkU/Wa2TppeYbhC80mw0JK++evy7OzhdOvhV3zwAOAV62zsAIZiswxcqbM4DBGs6Hi3ICCPRdol2y7icxRih1W6TQsboLLsLn+y5Fc6sIngcNvdBhCRFrdTbSWQKAKNNx2UkFeCM0pwzllYAwWCc1O504DlRLu1sbvPVGShD/r3cBygRS6n+7mFMyibglIpPiwrcohx28+/XAckq8JRhC+PScFBx4xvt+FAW54TnPxMpWbXKCU7WPJ+1KqblCKomGUVWzgpKTi7XBcNtNpq8Zgh5l0nrkm4pUwFOc6/Y07KsF/aMxWJBELxiz/v7++/D4d7ej8PxGIZhZ6d/e3t7fX3d728f7O9DcrC7+/Ps7OHhAYZkOBzCSEB+MNi9vLz8C+IDi5nXaAVMAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+  ></span>
+  <picture>
+          <source
+              srcset="/zentopia-blog/static/f6143d41222e1d7f2c47c29311e7e245/f6f22/iter2-2.webp 225w,
+/zentopia-blog/static/f6143d41222e1d7f2c47c29311e7e245/a0d3f/iter2-2.webp 450w,
+/zentopia-blog/static/f6143d41222e1d7f2c47c29311e7e245/b6aad/iter2-2.webp 900w,
+/zentopia-blog/static/f6143d41222e1d7f2c47c29311e7e245/e2411/iter2-2.webp 1336w"
+              sizes="(max-width: 900px) 100vw, 900px"
+              type="image/webp"
+            />
+          <source
+            srcset="/zentopia-blog/static/f6143d41222e1d7f2c47c29311e7e245/80523/iter2-2.png 225w,
+/zentopia-blog/static/f6143d41222e1d7f2c47c29311e7e245/532bf/iter2-2.png 450w,
+/zentopia-blog/static/f6143d41222e1d7f2c47c29311e7e245/929af/iter2-2.png 900w,
+/zentopia-blog/static/f6143d41222e1d7f2c47c29311e7e245/9825f/iter2-2.png 1336w"
+            sizes="(max-width: 900px) 100vw, 900px"
+            type="image/png"
+          />
+          <img
+            class="gatsby-resp-image-image"
+            src="/zentopia-blog/static/f6143d41222e1d7f2c47c29311e7e245/929af/iter2-2.png"
+            alt="iter2 2"
+            title="iter2 2"
+            loading="lazy"
+            style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+          />
+        </picture>
+    </span>
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 900px; "
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 70.22222222222221%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAAsTAAALEwEAmpwYAAADR0lEQVQ4y3VUXWvbZhSWrdiKHEvyh6T4s7JjO2laSU5tOR4jZexyKaVZEjt2aRLiOMlIMpMSNhjLGBsbZHQjuRldNwjsg+5i3QJdezO2wSAQAvkra//B++xIc8dGu4vDq/fwnkfnOc85hzs7O8P6+jo2Nzexvb3tnZ1OB48fPcIX9+5hdXUVvV7Ps42NDezt7eH8/By7u7ve3Y3Z2trE2toaDg4OwM3OzoLjuOfMMAzwHMe4F5jjOOh/Px8732hCjA0jENExIKsI0ukPx6Cns+za1BTeun0bc+025lstLK6sYKbRQKVaZQmjiAFFg4/ecqICPVeClkiBu/H6HGLZAtKjFnySCr+igwvHmRJTcX2hxY4e/MS++u4+u/vNt+zrH35kH9/5lJmWhZCWZpFMAWE9AyWVg5TKgxfD4K7fmCGgOORkzgWCqKYhJQwW14bxWmOBPfz9D/bLr7+x748fsgc/P2af3PmMXTYtBBSNxbJFljJrSI6VEdKz8AVFquF8A9xQFFH6WzCWgKhlECbAXG4Epauvsva7H7LPvzxiH9w9YtO9t1nGtFmVauiXVCYVbYjpEqSCDSFVBDcggGu02uBCUaJdRCCawCBlGCIauUKJmWUbo1eqGLNsFE0bmbFxBMMSHKqhmDCg11+BSIlErRqi5XofcKHlUSaaXg15WaMCj6J0yURGUZjA+f6jsBAUmFOrIUBslOpLEEgMya5iaMwCx3uAbQ9QiKf+BnRFESNIE+WXbRNb3Q7KExOQgz6oIpkio16vwz8Ug0hixMoVRMdt+GUdPiHUz5DEGPw3ID3WEknMUav8+eQppqevIadFYKZk5NJJTE5OEoBKbaNTmw1DIPMRM78L2HRr6BcxQE4/OZ9laOQLuFAs4Y3eO7h4qYzxQh5TzgQuJJOoEaDbt7wyDL4PJqdHMBSJ9wEDYS9DFzRIwriZGvk8StYVzLQ7sEiYnd6b+Oj993B10oHjVBEhuqpR8sRMjFyEerlCgin/P3rZbBaDg+I/d03XIckKeJ5HpVJ5YYxnJycnWFpcxAqNlbskurQMbtKoHR8f4/DwEM1mAx3yLS8vo0ljt7Ozg9PTU1oIW1haWvKWQrfbxeKtW9jf38df2sq15K/fAD4AAAAASUVORK5CYII='); background-size: cover; display: block;"
+  ></span>
+  <picture>
+          <source
+              srcset="/zentopia-blog/static/c416979068a150652d216e6695207560/f6f22/iter2-3.webp 225w,
+/zentopia-blog/static/c416979068a150652d216e6695207560/a0d3f/iter2-3.webp 450w,
+/zentopia-blog/static/c416979068a150652d216e6695207560/b6aad/iter2-3.webp 900w,
+/zentopia-blog/static/c416979068a150652d216e6695207560/e2411/iter2-3.webp 1336w"
+              sizes="(max-width: 900px) 100vw, 900px"
+              type="image/webp"
+            />
+          <source
+            srcset="/zentopia-blog/static/c416979068a150652d216e6695207560/80523/iter2-3.png 225w,
+/zentopia-blog/static/c416979068a150652d216e6695207560/532bf/iter2-3.png 450w,
+/zentopia-blog/static/c416979068a150652d216e6695207560/929af/iter2-3.png 900w,
+/zentopia-blog/static/c416979068a150652d216e6695207560/9825f/iter2-3.png 1336w"
+            sizes="(max-width: 900px) 100vw, 900px"
+            type="image/png"
+          />
+          <img
+            class="gatsby-resp-image-image"
+            src="/zentopia-blog/static/c416979068a150652d216e6695207560/929af/iter2-3.png"
+            alt="iter2 3"
+            title="iter2 3"
+            loading="lazy"
+            style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+          />
+        </picture>
+    </span>
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 900px; "
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 42.22222222222223%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAAAsTAAALEwEAmpwYAAAB8klEQVQozx2SS2/aUBCFb1LCw2AbA37xMAZiMOAA4WVoS9VU3TVdpKqSNkhUVOo6i6qbSF31h3+dsBjpnjtz5s6Zc9XxeGS5XJCu19zd3fFwf0+apqwE7/d7Hh+/s1qtpGbJ4XA45deSe8E/hftFOC/119fXPD09obygg1I5VMFEZXLkzKrgVxKKfMnEcOuos6zgLKWKjVZ1UOdSry4oOx4FyxZeQfA5k2WK6k/mZL2QYquPbvvYrS7R7VeG3w404oRGN8bqJZjdBD+8xO8OqMjZ7Ixp9gZ4YUQ1HKD5HV7ffERFyQyVNzk3bPSqixv06D8cWf35S7hY045G6J0rrOGaVjSUGGP0JlijlFAetJshFxWfs1qb7XtpOJgtOSu7XFgehu2dGkb3P1j8fqazSGl0+rjjtUx5RV0m9GTCnNclUwsIIpneD1AlWVOmSLq7QSWbt2hBn4zpYDr1k4R4/4v0+R+XknP8Fla8QmvF+EGI2+6dFKm8QXAZU22EKL2Gyups3n0QyeOpXNgUnJYs3aHsNqnNdzRubvGEUPGaIm9LUWRXxKBKvS0Glk9NXwzVbTFNs8QojcV2h3rzdkepbFG1XeLhkFGSoGklctk80+mM2XyObloUDZOlfJ+ryZSSUUbTDTabrXBGGMLPFYp8uv3Mf+0H4Z/cvrItAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+  ></span>
+  <picture>
+          <source
+              srcset="/zentopia-blog/static/7cb32c2c0be00bc9685fc1765dc7ecb3/f6f22/iter2-4.webp 225w,
+/zentopia-blog/static/7cb32c2c0be00bc9685fc1765dc7ecb3/a0d3f/iter2-4.webp 450w,
+/zentopia-blog/static/7cb32c2c0be00bc9685fc1765dc7ecb3/b6aad/iter2-4.webp 900w,
+/zentopia-blog/static/7cb32c2c0be00bc9685fc1765dc7ecb3/5359d/iter2-4.webp 1350w,
+/zentopia-blog/static/7cb32c2c0be00bc9685fc1765dc7ecb3/04dfc/iter2-4.webp 1800w,
+/zentopia-blog/static/7cb32c2c0be00bc9685fc1765dc7ecb3/cba2e/iter2-4.webp 1999w"
+              sizes="(max-width: 900px) 100vw, 900px"
+              type="image/webp"
+            />
+          <source
+            srcset="/zentopia-blog/static/7cb32c2c0be00bc9685fc1765dc7ecb3/80523/iter2-4.png 225w,
+/zentopia-blog/static/7cb32c2c0be00bc9685fc1765dc7ecb3/532bf/iter2-4.png 450w,
+/zentopia-blog/static/7cb32c2c0be00bc9685fc1765dc7ecb3/929af/iter2-4.png 900w,
+/zentopia-blog/static/7cb32c2c0be00bc9685fc1765dc7ecb3/65344/iter2-4.png 1350w,
+/zentopia-blog/static/7cb32c2c0be00bc9685fc1765dc7ecb3/59ab2/iter2-4.png 1800w,
+/zentopia-blog/static/7cb32c2c0be00bc9685fc1765dc7ecb3/2952a/iter2-4.png 1999w"
+            sizes="(max-width: 900px) 100vw, 900px"
+            type="image/png"
+          />
+          <img
+            class="gatsby-resp-image-image"
+            src="/zentopia-blog/static/7cb32c2c0be00bc9685fc1765dc7ecb3/929af/iter2-4.png"
+            alt="iter2 4"
+            title="iter2 4"
+            loading="lazy"
+            style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+          />
+        </picture>
+    </span>
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 900px; "
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 42.22222222222223%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAAAsTAAALEwEAmpwYAAAB8klEQVQozx2SS2/aUBCFb1LCw2AbA37xMAZiMOAA4WVoS9VU3TVdpKqSNkhUVOo6i6qbSF31h3+dsBjpnjtz5s6Zc9XxeGS5XJCu19zd3fFwf0+apqwE7/d7Hh+/s1qtpGbJ4XA45deSe8E/hftFOC/119fXPD09obygg1I5VMFEZXLkzKrgVxKKfMnEcOuos6zgLKWKjVZ1UOdSry4oOx4FyxZeQfA5k2WK6k/mZL2QYquPbvvYrS7R7VeG3w404oRGN8bqJZjdBD+8xO8OqMjZ7Ixp9gZ4YUQ1HKD5HV7ffERFyQyVNzk3bPSqixv06D8cWf35S7hY045G6J0rrOGaVjSUGGP0JlijlFAetJshFxWfs1qb7XtpOJgtOSu7XFgehu2dGkb3P1j8fqazSGl0+rjjtUx5RV0m9GTCnNclUwsIIpneD1AlWVOmSLq7QSWbt2hBn4zpYDr1k4R4/4v0+R+XknP8Fla8QmvF+EGI2+6dFKm8QXAZU22EKL2Gyups3n0QyeOpXNgUnJYs3aHsNqnNdzRubvGEUPGaIm9LUWRXxKBKvS0Glk9NXwzVbTFNs8QojcV2h3rzdkepbFG1XeLhkFGSoGklctk80+mM2XyObloUDZOlfJ+ryZSSUUbTDTabrXBGGMLPFYp8uv3Mf+0H4Z/cvrItAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+  ></span>
+  <picture>
+          <source
+              srcset="/zentopia-blog/static/7cb32c2c0be00bc9685fc1765dc7ecb3/f6f22/iter2-4.webp 225w,
+/zentopia-blog/static/7cb32c2c0be00bc9685fc1765dc7ecb3/a0d3f/iter2-4.webp 450w,
+/zentopia-blog/static/7cb32c2c0be00bc9685fc1765dc7ecb3/b6aad/iter2-4.webp 900w,
+/zentopia-blog/static/7cb32c2c0be00bc9685fc1765dc7ecb3/5359d/iter2-4.webp 1350w,
+/zentopia-blog/static/7cb32c2c0be00bc9685fc1765dc7ecb3/04dfc/iter2-4.webp 1800w,
+/zentopia-blog/static/7cb32c2c0be00bc9685fc1765dc7ecb3/cba2e/iter2-4.webp 1999w"
+              sizes="(max-width: 900px) 100vw, 900px"
+              type="image/webp"
+            />
+          <source
+            srcset="/zentopia-blog/static/7cb32c2c0be00bc9685fc1765dc7ecb3/80523/iter2-4.png 225w,
+/zentopia-blog/static/7cb32c2c0be00bc9685fc1765dc7ecb3/532bf/iter2-4.png 450w,
+/zentopia-blog/static/7cb32c2c0be00bc9685fc1765dc7ecb3/929af/iter2-4.png 900w,
+/zentopia-blog/static/7cb32c2c0be00bc9685fc1765dc7ecb3/65344/iter2-4.png 1350w,
+/zentopia-blog/static/7cb32c2c0be00bc9685fc1765dc7ecb3/59ab2/iter2-4.png 1800w,
+/zentopia-blog/static/7cb32c2c0be00bc9685fc1765dc7ecb3/2952a/iter2-4.png 1999w"
+            sizes="(max-width: 900px) 100vw, 900px"
+            type="image/png"
+          />
+          <img
+            class="gatsby-resp-image-image"
+            src="/zentopia-blog/static/7cb32c2c0be00bc9685fc1765dc7ecb3/929af/iter2-4.png"
+            alt="iter2 4"
+            title="iter2 4"
+            loading="lazy"
+            style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+          />
+        </picture>
+    </span></p>
+<h3>Iteration 3</h3>
+<h4>Design changes for points of confusion:</h4>
+<ul>
+<li>The navigation bar seemed a little bit ‘older’ and a little less contemporary, maybe try to remove the white divider bar and see</li>
+<li>The goal tracking app home screen seems to not highlight the next activities etc as much as it should, it feels like that is the actual important part of the feature</li>
+<li>Colours on the Smart Calendar flow feel very muted compared to the rest of the app. Try using white text rather than grey to make the text easier to read and give it more contrast.</li>
+<li>There are some inconsistencies between flows for the Title Bars. The titles in the Calendar flow are grey, larger and not underlined whereas in the Goal Tracker flow, the titles are white, smaller and have less padding on top</li>
+<li>Remove whitelist/blacklist as it does not seem to important to the overall flow of the application</li>
+<li>Try putting the search bar under MY NETWORKS at the top, so that users are more likely to search through their contacts than scroll</li>
+<li>Could create more vertical space in the Add Event page to make it less cramped. Organizing content into columns of one or two in a form makes it easier for the user to navigate as suggested in Figure 1</li>
+</ul>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 900px; "
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 43.99999999999999%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAAAsTAAALEwEAmpwYAAAB5ElEQVQoz0WSS2/UMBSFPUkmLydx/IidpJN5MKN2xDC04tFWIDaIHWt+AK3EqhULBBvEbz9ce6hYRPFJjr/c+Bw29D2MVpBCwHYdnLVQSkJJCUvr3jlo0rIVcLQO7+V/3TuLzmi0tN+zWJIVYFmJWVEhTnMkBQeLUrDZHPPspGdpgRl50qJETDr6pzPSSVkhorVnCPoQK3WPcnkBvtojrSWafsL6/UeM1x9QSoPSjOh2R1RnO+R1i9IuSL8AH7dBq2mL4fwIMe3QGguWyw6xsEhah5QLAi5xefeAN4+/UI8TGgK0uyvI/dsAaMcN9MVrKK8r8rsF6sUOfNpDKENAoQMsM2fIyMAJcHX/gNsfv1ENZHZLbG8/wR2u6YM1eL+GPH+FZn0I/rjWiBqLWdOdgGLaoHn2HJkawgSVm3D57Ttufv5BM63prCrYww1yu8Kczi+u/Dm1YFwi4w0BFQE7sEqfgNwQqF8h0yNN0ATg/stXvLx7RD1MBFCY3n1GvTkGYCI6RKJH5P/KT9gY0g7sacKEkvWJsXmOOJkjptTjvKJnPKTsdUHBxLwN2icc5dQEuqc5pU37I/KzJEcjaPKOume0DpfvYWdM6KVWKvTQUMe0bEMXHXXO+3zvvMf38El7/zAM+AsGj96sbwDWMgAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+  ></span>
+  <picture>
+          <source
+              srcset="/zentopia-blog/static/38cc08a85c16bf4fe31646db4d143260/f6f22/iter3-1.webp 225w,
+/zentopia-blog/static/38cc08a85c16bf4fe31646db4d143260/a0d3f/iter3-1.webp 450w,
+/zentopia-blog/static/38cc08a85c16bf4fe31646db4d143260/b6aad/iter3-1.webp 900w,
+/zentopia-blog/static/38cc08a85c16bf4fe31646db4d143260/e0cdf/iter3-1.webp 1069w"
+              sizes="(max-width: 900px) 100vw, 900px"
+              type="image/webp"
+            />
+          <source
+            srcset="/zentopia-blog/static/38cc08a85c16bf4fe31646db4d143260/80523/iter3-1.png 225w,
+/zentopia-blog/static/38cc08a85c16bf4fe31646db4d143260/532bf/iter3-1.png 450w,
+/zentopia-blog/static/38cc08a85c16bf4fe31646db4d143260/929af/iter3-1.png 900w,
+/zentopia-blog/static/38cc08a85c16bf4fe31646db4d143260/7ebbf/iter3-1.png 1069w"
+            sizes="(max-width: 900px) 100vw, 900px"
+            type="image/png"
+          />
+          <img
+            class="gatsby-resp-image-image"
+            src="/zentopia-blog/static/38cc08a85c16bf4fe31646db4d143260/929af/iter3-1.png"
+            alt="iter3 1"
+            title="iter3 1"
+            loading="lazy"
+            style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+          />
+        </picture>
+    </span>
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 900px; "
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 26.666666666666668%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAAAsTAAALEwEAmpwYAAABgUlEQVQY0w2Qy0ocQRRA22m7b9Wt6qrqrpnplzM9jm9QY+ehAYUILty4chUICP5fNkEQlGThCxMQcaEiCtEwWQSJkIRMokG4mfWBc+A4Poo/qAy5PmyBCH4xqQhQHKEKqQJ4i1KdMxFQP/ADodTroBYTk/ovCHmkk5w8hp+ZNhs6axJI3XGiqfJRjc4QaLtvy9muKMZJmOqFLUbIQXNnBoe/5LOviEXZJ5Wk6+H0HGHafgiyxoUtF8iPsq+maL+PnswTj4tbp7GweF+ffkn9GHxoL6/8jsbLXsmciKxFDlPf9djEVWNphURcHPqhfSNGS2Lp0D2mzRM59owgad+AijZZPEhgsxtHtob/6cmnBKa649ms68VNYio8w1pGDoi7Hr9OXiySp+ofeZKu6cnn1FdtPfC8daqm5qgvHOhIW98O8qGeo95xeLX2U6Qp+TJ45wL+cIGT68FuhQlyGX6r+PzYV5ZcLnc9GaxinJMro66vzB4mDaoIcwko33pS957zy/+jTG9V3Cbm+AAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+  ></span>
+  <picture>
+          <source
+              srcset="/zentopia-blog/static/e47aef7f2077a0d4bf8a21af6c95232d/f6f22/iter3-2.webp 225w,
+/zentopia-blog/static/e47aef7f2077a0d4bf8a21af6c95232d/a0d3f/iter3-2.webp 450w,
+/zentopia-blog/static/e47aef7f2077a0d4bf8a21af6c95232d/b6aad/iter3-2.webp 900w,
+/zentopia-blog/static/e47aef7f2077a0d4bf8a21af6c95232d/5359d/iter3-2.webp 1350w,
+/zentopia-blog/static/e47aef7f2077a0d4bf8a21af6c95232d/04dfc/iter3-2.webp 1800w,
+/zentopia-blog/static/e47aef7f2077a0d4bf8a21af6c95232d/cba2e/iter3-2.webp 1999w"
+              sizes="(max-width: 900px) 100vw, 900px"
+              type="image/webp"
+            />
+          <source
+            srcset="/zentopia-blog/static/e47aef7f2077a0d4bf8a21af6c95232d/80523/iter3-2.png 225w,
+/zentopia-blog/static/e47aef7f2077a0d4bf8a21af6c95232d/532bf/iter3-2.png 450w,
+/zentopia-blog/static/e47aef7f2077a0d4bf8a21af6c95232d/929af/iter3-2.png 900w,
+/zentopia-blog/static/e47aef7f2077a0d4bf8a21af6c95232d/65344/iter3-2.png 1350w,
+/zentopia-blog/static/e47aef7f2077a0d4bf8a21af6c95232d/59ab2/iter3-2.png 1800w,
+/zentopia-blog/static/e47aef7f2077a0d4bf8a21af6c95232d/2952a/iter3-2.png 1999w"
+            sizes="(max-width: 900px) 100vw, 900px"
+            type="image/png"
+          />
+          <img
+            class="gatsby-resp-image-image"
+            src="/zentopia-blog/static/e47aef7f2077a0d4bf8a21af6c95232d/929af/iter3-2.png"
+            alt="iter3 2"
+            title="iter3 2"
+            loading="lazy"
+            style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+          />
+        </picture>
+    </span>
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 900px; "
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 26.666666666666668%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAAAsTAAALEwEAmpwYAAABgUlEQVQY0w2Qy0ocQRRA22m7b9Wt6qrqrpnplzM9jm9QY+ehAYUILty4chUICP5fNkEQlGThCxMQcaEiCtEwWQSJkIRMokG4mfWBc+A4Poo/qAy5PmyBCH4xqQhQHKEKqQJ4i1KdMxFQP/ADodTroBYTk/ovCHmkk5w8hp+ZNhs6axJI3XGiqfJRjc4QaLtvy9muKMZJmOqFLUbIQXNnBoe/5LOviEXZJ5Wk6+H0HGHafgiyxoUtF8iPsq+maL+PnswTj4tbp7GweF+ffkn9GHxoL6/8jsbLXsmciKxFDlPf9djEVWNphURcHPqhfSNGS2Lp0D2mzRM59owgad+AijZZPEhgsxtHtob/6cmnBKa649ms68VNYio8w1pGDoi7Hr9OXiySp+ofeZKu6cnn1FdtPfC8daqm5qgvHOhIW98O8qGeo95xeLX2U6Qp+TJ45wL+cIGT68FuhQlyGX6r+PzYV5ZcLnc9GaxinJMro66vzB4mDaoIcwko33pS957zy/+jTG9V3Cbm+AAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+  ></span>
+  <picture>
+          <source
+              srcset="/zentopia-blog/static/e47aef7f2077a0d4bf8a21af6c95232d/f6f22/iter3-3.webp 225w,
+/zentopia-blog/static/e47aef7f2077a0d4bf8a21af6c95232d/a0d3f/iter3-3.webp 450w,
+/zentopia-blog/static/e47aef7f2077a0d4bf8a21af6c95232d/b6aad/iter3-3.webp 900w,
+/zentopia-blog/static/e47aef7f2077a0d4bf8a21af6c95232d/5359d/iter3-3.webp 1350w,
+/zentopia-blog/static/e47aef7f2077a0d4bf8a21af6c95232d/04dfc/iter3-3.webp 1800w,
+/zentopia-blog/static/e47aef7f2077a0d4bf8a21af6c95232d/cba2e/iter3-3.webp 1999w"
+              sizes="(max-width: 900px) 100vw, 900px"
+              type="image/webp"
+            />
+          <source
+            srcset="/zentopia-blog/static/e47aef7f2077a0d4bf8a21af6c95232d/80523/iter3-3.png 225w,
+/zentopia-blog/static/e47aef7f2077a0d4bf8a21af6c95232d/532bf/iter3-3.png 450w,
+/zentopia-blog/static/e47aef7f2077a0d4bf8a21af6c95232d/929af/iter3-3.png 900w,
+/zentopia-blog/static/e47aef7f2077a0d4bf8a21af6c95232d/65344/iter3-3.png 1350w,
+/zentopia-blog/static/e47aef7f2077a0d4bf8a21af6c95232d/59ab2/iter3-3.png 1800w,
+/zentopia-blog/static/e47aef7f2077a0d4bf8a21af6c95232d/2952a/iter3-3.png 1999w"
+            sizes="(max-width: 900px) 100vw, 900px"
+            type="image/png"
+          />
+          <img
+            class="gatsby-resp-image-image"
+            src="/zentopia-blog/static/e47aef7f2077a0d4bf8a21af6c95232d/929af/iter3-3.png"
+            alt="iter3 3"
+            title="iter3 3"
+            loading="lazy"
+            style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+          />
+        </picture>
+    </span>
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 900px; "
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 32.44444444444445%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAAAsTAAALEwEAmpwYAAABwUlEQVQY0xWQO2/TYBiFP/vzd/UtthPbcZzECXbiDAlt1IktYmFASAz8AIQEYynix7DQDu1SQIjLf2GiSCECkYhCSJHaOCIv7nCm8+gc6UGEi78Ia6BRfs6F/KJqFMpshdQ/YcrXKqFAuXhBGT/BhAFStSvbMKedJPnXStrgVatnCibnikagZD4jO4ihO9oDP0kvueks43wIfrcHwnJ/Bu2saPaHIG3v2A0b751GAojom/zm7vr47Ts4/fAR7ty9t+JueFnPhlAJ4z+IOuGmko7AjNMLVehz3kpAdFpADHvmjfaK6NYERBAfCsN+I70QqOUWXrO9fPDoyfb+w8flSH3Bo2RlZSNgtfoM8Wq0dvtj4LXmCuvmD7OfAWtEoFmV6Xh/v9g9OADjRnpEhfmqPAfFrhZxFP0aZOkWIQRYUeei2V5ZgxyIW5shVXcKe9gD5gUXCpVzrzcGvd4pPYqvspMURtoFFcsjbDivVTsAxKxNPtr5/fTZ8+1O1oaa6yyw5a/8Tg6KtGeoFH+l6SYQoS9L6d+wNEATOhDGz1Qm1uS6Y+KlSsUplhYoTC+kWVl0swHcnkzAr1W/I40urznMxPQ/raiRnO+wahsAAAAASUVORK5CYII='); background-size: cover; display: block;"
+  ></span>
+  <picture>
+          <source
+              srcset="/zentopia-blog/static/d30d7ccd772593dd5a43efab9137c001/f6f22/iter3-4.webp 225w,
+/zentopia-blog/static/d30d7ccd772593dd5a43efab9137c001/a0d3f/iter3-4.webp 450w,
+/zentopia-blog/static/d30d7ccd772593dd5a43efab9137c001/b6aad/iter3-4.webp 900w,
+/zentopia-blog/static/d30d7ccd772593dd5a43efab9137c001/5359d/iter3-4.webp 1350w,
+/zentopia-blog/static/d30d7ccd772593dd5a43efab9137c001/04dfc/iter3-4.webp 1800w,
+/zentopia-blog/static/d30d7ccd772593dd5a43efab9137c001/cba2e/iter3-4.webp 1999w"
+              sizes="(max-width: 900px) 100vw, 900px"
+              type="image/webp"
+            />
+          <source
+            srcset="/zentopia-blog/static/d30d7ccd772593dd5a43efab9137c001/80523/iter3-4.png 225w,
+/zentopia-blog/static/d30d7ccd772593dd5a43efab9137c001/532bf/iter3-4.png 450w,
+/zentopia-blog/static/d30d7ccd772593dd5a43efab9137c001/929af/iter3-4.png 900w,
+/zentopia-blog/static/d30d7ccd772593dd5a43efab9137c001/65344/iter3-4.png 1350w,
+/zentopia-blog/static/d30d7ccd772593dd5a43efab9137c001/59ab2/iter3-4.png 1800w,
+/zentopia-blog/static/d30d7ccd772593dd5a43efab9137c001/2952a/iter3-4.png 1999w"
+            sizes="(max-width: 900px) 100vw, 900px"
+            type="image/png"
+          />
+          <img
+            class="gatsby-resp-image-image"
+            src="/zentopia-blog/static/d30d7ccd772593dd5a43efab9137c001/929af/iter3-4.png"
+            alt="iter3 4"
+            title="iter3 4"
+            loading="lazy"
+            style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+          />
+        </picture>
+    </span>
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 900px; "
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 63.11111111111111%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAAAsTAAALEwEAmpwYAAADpUlEQVQ4yzWTfWwURRjGZ3dmZ7+ue7ftXT9Oz1JTS4of9OolajUYNKYIUUnRAG0pEOCQWjFWkFOgoPZC2koDaVQgTYhHSpSahqSVcmcLl0JjWjD9SKi2fAQBozHGP03cm5vX2Wv848nsu8/Mb97ZnQfJsnxPVdUFTdNuYoxvC82bprmMUrqNEPKHopAF8Sw8+aao74u5NUINsiSBWJsVHpcklBUC8f4wwgqF/yUTBYgYVUpbCFHOIYRErQBVNUCSDG5NqbJfgD/XNB0sr88RAq/PZrphuhuMIGrkcTExuygpY9l+0A1jl2p4+gw7AMuqns5UP/tCtmzp4/8qHh9ouh5TVK3DVxyCUMUTmUBpOV9SuTwbCD0KHst7DVWujUJ14x7+5PrdfPmmfayoagUYivy+btnfrn6rAVpih1i0NcY/aGvPRFa8LLrAn1j5/u7i1asg/F5zJtwc5VXv7uJ+UT8UKv0L9aTn4eLdf3j/3N988Ddgda3t7tGaPf6S/qaOr+HI0HX2YV8a2gZnnJXb97neR0aeddQfqYGKuvpM2Zp1sOT19cyOPC8+m5pEsdPfwxfDE/zo+Su8OznDVjbtdhftJHbJmc6zF2By9mc2OjENc/f/dLYf6HC9vVgz4xv2H4eTl2448e+uQueFGVZ/6EuQCE2inm+GIJm+yodGx/j47Dxbs6UlB8TewsSnvf3ww/gkG0ilYfrWPadpz+EcEFEz3hzvgfTklDM4OgazC3fYweO9gGQlhb7qH4aR8Qk+nB7nM7cfsNe2LgJly5/47NRZmPhpig1fGoNf7vzqbG49uAjEajza1gVXpm44A8nLcG3uFvu4+4TwcApFVtVB7YatvHbjNv5qww4WrAyDJIBI9yXiJ/vg+tQ0G/txEu4++N3Z0nogB6SaES+LvAjPvdHoVNeug5q1jaz8mZcAUzUlfAJ55WEefvNtcX1kJntsMHV9J9LyEptjR+DYmQHWdfoc9J4fcV7ZuCMHNDxWHJl+MENLncBjT3EtWM6QJwBUN1MIewOgFgS5VVrBaX4xswqD7o2PKrqZkH3FIPsfYZId5FJByMF2ESiE7FU0vZ1YBaAXlDhG4cNcLwqJRvJBdH4RYaq5v5sTw+SyqjMkYxf4DlaUvlxyqMqoSIU4joNVMWIcw4R0up6EFYcIT1Y15iZJpOoycuPkZlJT1Vxi3EwahlErOulyPUmSMrquu15mMXp0k9iwXmTbhTPTMLiYywTDbaT9P6E0jj4dPDrZAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+  ></span>
+  <picture>
+          <source
+              srcset="/zentopia-blog/static/7dff994f15c0d2047d462978d621f401/f6f22/iter3-5.webp 225w,
+/zentopia-blog/static/7dff994f15c0d2047d462978d621f401/a0d3f/iter3-5.webp 450w,
+/zentopia-blog/static/7dff994f15c0d2047d462978d621f401/b6aad/iter3-5.webp 900w,
+/zentopia-blog/static/7dff994f15c0d2047d462978d621f401/5359d/iter3-5.webp 1350w,
+/zentopia-blog/static/7dff994f15c0d2047d462978d621f401/04dfc/iter3-5.webp 1800w,
+/zentopia-blog/static/7dff994f15c0d2047d462978d621f401/cba2e/iter3-5.webp 1999w"
+              sizes="(max-width: 900px) 100vw, 900px"
+              type="image/webp"
+            />
+          <source
+            srcset="/zentopia-blog/static/7dff994f15c0d2047d462978d621f401/80523/iter3-5.png 225w,
+/zentopia-blog/static/7dff994f15c0d2047d462978d621f401/532bf/iter3-5.png 450w,
+/zentopia-blog/static/7dff994f15c0d2047d462978d621f401/929af/iter3-5.png 900w,
+/zentopia-blog/static/7dff994f15c0d2047d462978d621f401/65344/iter3-5.png 1350w,
+/zentopia-blog/static/7dff994f15c0d2047d462978d621f401/59ab2/iter3-5.png 1800w,
+/zentopia-blog/static/7dff994f15c0d2047d462978d621f401/2952a/iter3-5.png 1999w"
+            sizes="(max-width: 900px) 100vw, 900px"
+            type="image/png"
+          />
+          <img
+            class="gatsby-resp-image-image"
+            src="/zentopia-blog/static/7dff994f15c0d2047d462978d621f401/929af/iter3-5.png"
+            alt="iter3 5"
+            title="iter3 5"
+            loading="lazy"
+            style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+          />
+        </picture>
+    </span></p>
+<h3>Iteration 4</h3>
+<ul>
+<li>We noticed that our collaboration feature was rather vague so we reiterated the design to make it more complete</li>
+</ul>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 900px; "
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 28.444444444444443%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAAAsTAAALEwEAmpwYAAABu0lEQVQY0x2R7UtTcRTHf5r2sMRn1wy3lStBDSuNbF2WLDOjqYQsDHzYdeTdXVsbPd3mm+Uim4RJk0W4XSW3Fwv6L1Sqhb2of2H+H5/u7osDn/M9cOCcj1iYn+P96ip6Ps9jWSa7uUk2m2XR4O2dHdLpNcKqyrdSieVEglgsRqFQJBKJkEql+FUuo2kar1685KhyhBDCwsWrbgY9HkRLG33um0jeMUTtSUZu3+FCbz+i/jST0w9ptjk40dzB2Pg9RM1x2u0u1jc2aOu00+R0cPDzB+Lt9nfefSnwYCHI3Js0M+pTJmeDdF12MysH8fomqLe5CEafccPnZ3jUhxJ5QqO9G+ela3wtFuno7qGu8zyHf/8hQokVtNQaM4sKK5+2UJ8vM+WfRljamTIWD0kjiMYzzC+pSI+W8AdCBJUQNU1WHL1X2MrrNNicHGs5y+/DP9WTBfaefgaGrlcbXH0DDLolk4elW1i7zpl89/4EtQ2tiLpTeLyjZmZptfJh/aPJ1drbP0DIcsB4fJpcLoccCJDJZPhsSJENKbqumzNFUSgZUhKvNaLRKLuFXcLhMMlkkrIhJR6Pm3mlUuE/nBHzrxBfp4YAAAAASUVORK5CYII='); background-size: cover; display: block;"
+  ></span>
+  <picture>
+          <source
+              srcset="/zentopia-blog/static/8e1fd9ab9b212b37074808c940e70fdd/f6f22/iter4.webp 225w,
+/zentopia-blog/static/8e1fd9ab9b212b37074808c940e70fdd/a0d3f/iter4.webp 450w,
+/zentopia-blog/static/8e1fd9ab9b212b37074808c940e70fdd/b6aad/iter4.webp 900w,
+/zentopia-blog/static/8e1fd9ab9b212b37074808c940e70fdd/5359d/iter4.webp 1350w,
+/zentopia-blog/static/8e1fd9ab9b212b37074808c940e70fdd/04dfc/iter4.webp 1800w,
+/zentopia-blog/static/8e1fd9ab9b212b37074808c940e70fdd/7ea44/iter4.webp 3642w"
+              sizes="(max-width: 900px) 100vw, 900px"
+              type="image/webp"
+            />
+          <source
+            srcset="/zentopia-blog/static/8e1fd9ab9b212b37074808c940e70fdd/80523/iter4.png 225w,
+/zentopia-blog/static/8e1fd9ab9b212b37074808c940e70fdd/532bf/iter4.png 450w,
+/zentopia-blog/static/8e1fd9ab9b212b37074808c940e70fdd/929af/iter4.png 900w,
+/zentopia-blog/static/8e1fd9ab9b212b37074808c940e70fdd/65344/iter4.png 1350w,
+/zentopia-blog/static/8e1fd9ab9b212b37074808c940e70fdd/59ab2/iter4.png 1800w,
+/zentopia-blog/static/8e1fd9ab9b212b37074808c940e70fdd/f57df/iter4.png 3642w"
+            sizes="(max-width: 900px) 100vw, 900px"
+            type="image/png"
+          />
+          <img
+            class="gatsby-resp-image-image"
+            src="/zentopia-blog/static/8e1fd9ab9b212b37074808c940e70fdd/929af/iter4.png"
+            alt="iter4"
+            title="iter4"
+            loading="lazy"
+            style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+          />
+        </picture>
+    </span></p></div></main><footer class="Footer__Container-sc-1gxjlnv-0 jENMCK"><a href="https://github.com/matoplus/zentopia-blog" target="_blank" rel="noopener noreferrer" class="ButtonLink-sc-1q7lk9d-0 eCJhet">Github</a><a href="https://www.figma.com/file/n6CAMeTza5nBAJ0r38rQf0/Productivity-App-Prototypes?type=design&amp;node-id=0%3A1&amp;mode=design&amp;t=knR9VfvAQ2VNnlyn-1" target="_blank" rel="noopener noreferrer" class="ButtonLink-sc-1q7lk9d-0 eCJhet">Figma</a></footer></div></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/blog/post3/";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"polyfill":["/polyfill-95a809e6b66e585e8557.js"],"app":["/app-200d8ca7bc6b9da9077b.js"],"component---cache-caches-gatsby-plugin-offline-app-shell-js":["/component---cache-caches-gatsby-plugin-offline-app-shell-js-49be599b1ad8fa2a8465.js"],"component---src-pages-404-js":["/component---src-pages-404-js-18e6f471e435a283b626.js"],"component---src-pages-about-js":["/component---src-pages-about-js-b83251a9cec48d633323.js"],"component---src-pages-index-js":["/component---src-pages-index-js-4784e5ee06020223dc01.js"],"component---src-templates-blog-post-js":["/component---src-templates-blog-post-js-81e27c56dcf04ec4606b.js"]};/*]]>*/</script><script src="/zentopia-blog/polyfill-95a809e6b66e585e8557.js" nomodule=""></script><script src="/zentopia-blog/component---src-templates-blog-post-js-81e27c56dcf04ec4606b.js" async=""></script><script src="/zentopia-blog/133dca110fad53aa1997b630637bbac3134a2d14-2a251b3e77fa740e5a7d.js" async=""></script><script src="/zentopia-blog/app-200d8ca7bc6b9da9077b.js" async=""></script><script src="/zentopia-blog/framework-231cfd6da847e9d872b6.js" async=""></script><script src="/zentopia-blog/webpack-runtime-61a3dc5f29d2b85e4c2f.js" async=""></script></body></html>
