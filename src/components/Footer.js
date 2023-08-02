@@ -32,6 +32,13 @@ export function Footer() {
       >
         Figma
       </ButtonLink>
+      <ButtonLink
+        href="https://youtu.be/0uaVu7dfGMk"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Demo
+      </ButtonLink>
     </Container>
   )
 }
